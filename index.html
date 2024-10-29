@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body class=" ">
+    <!-- 11111 -->
+<nav class="flex justify-between sm:px-10 md:px-15 lg:px-20 p-3">
+    <h1 class="font-bold cursor-pointer sm:text-2xl">Woddy</h1>
+    <div class="flex gap-3 md:gap-12 items-center">
+        <div class="flex gap-2 md:gap-12 text-xs sm:text-lg sm:gap-7 font-semibold items-center">
+            <p class="cursor-pointer">Shop</p>
+            <p class="cursor-pointer">Browse</p>
+            <p class="cursor-pointer">FAQ</p>
+            <p class="cursor-pointer">Contact</p>
+        </div>
+        <div class="flex gap-1 md:gap-7 sm:gap-2 ">
+            <div class="size-6 sm:size-8 sm:text-lg cursor-pointer text-xs rounded-full border border-black flex justify-center items-center"><i class="fa-regular fa-user"></i></div>
+            <div class="size-6 text-xs rounded-full sm:size-8 cursor-pointer sm:text-lg border bg-[#D1ED7F] flex justify-center items-center"><i class="fa-solid fa-cart-shopping"></i></div>
+        </div>
+    </div>
+</nav>
+<!-- 22222 -->
+<section class="mt-16 flex sm:flex-row sm:justify-around sm:items-center flex-col gap-6 p-3">
+    <div class="left flex flex-col gap-4">
+        <h1 class="text-3xl font-semibold md:text-[40px] max-w-[25rem] leading-[50px]">Modern furniture for minimalist livers</h1>
+        <p class="text-[14px] font-medium sm:w-[80%] text-[#000000b6] leading-7">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae dicta adipisci magnam dolor ipsa quaerat.</p>
+        <div class="flex gap-3">
+            <button class="bg-[#D1ED7F] font-semibold rounded-lg px-[10px] py-[8px]">Shop now</button>
+            <button class="underline font-semibold rounded-lg px-2 py-1">Show reel</button>
+        </div>
+    </div>
+    <div class="right relative max-w-[25rem]  md:min-w-[25rem]">
+        <img class="w-full h-[20rem] rounded-lg" src="./images.jpeg" alt="">
+        <div class="absolute bottom-4 text-white left-4">
+            <p class="text-3xl text-[#ffffffd7]">Book Table</p>
+            <p class="text-[#ffffffb2]">Experince the ultimate</p>
+        </div>
+    </div>
+</section>
+<!-- 33333 -->
+<section class="mt-16 flex flex-col gap-9 p-3">
+    <div class="flex flex-col gap-3  items-center  md:flex-row  md:justify-between md:px-28">
+        <h1 class="text-3xl md:text-[40px] font-semibold md:w-[25rem] md:leading-[50px]">Our new exclusive collection</h1>
+        <p class="text-sm text-[#000000b6] text-center md:text-start font-medium max-w-[30rem]">Lorem ipsum dolor, Lorem ipsum dolor sit amet. sit amet consectetur adipisicing elit. Sapiente velit quia eos!</p>
+    </div>
+    <div class="flex gap-1 md:gap-10 md:px-28 items-center justify-center">
+        <button class="bg-[#D1ED7F] cursor-pointer rounded-3xl px-3 py-1 text-sm font-semibold" >Dinning</button>
+        <button class="bg-[#F7F7F7] cursor-pointer rounded-3xl px-3 py-1 text-sm font-semibold" >Chair</button>
+        <button class="bg-[#F7F7F7] cursor-pointer rounded-3xl px-3 py-1 text-sm font-semibold" >Bed</button>
+        <button class="bg-[#F7F7F7] cursor-pointer rounded-3xl px-3 py-1 text-sm font-semibold" >Ketchin</button>
+        <button class="bg-[#F7F7F7] cursor-pointer rounded-3xl px-3 py-1 text-sm font-semibold" >Shelves</button>
+    </div>
+    <div class="flex flex-col md:flex-row md:justify-center gap-3">
+        <div class="flex flex-col justify-center items-center md:w-1/5 gap-2">
+            <div class="w-[90%] m-auto h-[15rem] relative flex justify-center bg-no-repeat items-center max-w-[25rem] bg-[url('./download-removebg-preview.png')] bg-center bg-contain rounded bg-[#dddbdb5b]">
+                <p class="absolute top-2 right-4 bg-slate-50 cursor-pointer rounded-2xl py-1 px-2">save</p>
+            </div>
+                <p class="font-semibold">Woden Chair</p>
+        </div>
+        <div class="flex flex-col justify-center items-center gap-2 md:w-1/5">
+            <div class="w-[90%] m-auto h-[15rem] relative flex justify-center items-center bg-no-repeat max-w-[25rem] bg-[url('./table.png')] bg-center bg-contain rounded bg-[#dddbdb5b]">
+                <p class="absolute top-2 right-4 bg-slate-50 rounded-2xl cursor-pointer py-1 px-2">save</p>
+            </div>
+                <p class="font-semibold">Round table</p>
+        </div>
+        <div class="flex flex-col justify-center items-center gap-2 md:w-1/5">
+            <div class="w-[90%] m-auto h-[15rem] relative flex justify-center items-center max-w-[25rem] bg-[url('./chair2.png')] bg-center bg-no-repeat bg-contain rounded bg-[#dddbdb5b]">
+                <p class="absolute cursor-pointer top-2 right-4 bg-slate-50 rounded-2xl py-1 px-2">save</p>
+            </div>
+                <p class="font-semibold">Dinning chair</p>
+        </div>
+        <div class="flex flex-col justify-center items-center gap-2 md:w-1/5">
+            <div class="w-[90%] m-auto h-[15rem] relative flex justify-center bg-no-repeat max-w-[25rem] items-center bg-[url('./chair3.png')] bg-center bg-contain rounded bg-[#dddbdb5b]">
+                <p class="absolute top-2 right-4 cursor-pointer bg-slate-50 rounded-2xl py-1 px-2">save</p>
+            </div>
+                <p class="font-semibold">Plywood Chair</p>
+        </div>
+    </div>
+</section>
+<!-- 444444 -->
+ <section class="mt-12 flex flex-col md:mt-[10rem] md:flex-row-reverse gap-8  p-3 md:justify-center md:items-center">
+    <div class="right flex flex-col gap-3 md:gap-7 md:text-center md:items-center md:w-[50%]">
+        <h1 class="text-3xl font-semibold md:text-[40px] md:w-[22rem] md:leading-[40px] md:text-center">New experience is going to unlock</h1>
+        <p class="text-[14px] font-medium md:max-w-[35rem] md:text-center md:px-4 text-[#000000b6]">Lorem Lorem ipsum dolor sit amet. ipsum dolor sit amet consectetur adipisicing elit. At consequatur distinctio laborum.</p>
+    </div>
+    <div class="left bg-[#D9E9AA] rounded-xl m-auto w-[60%] sm:max-w-[20rem] md:max-w-[20rem] h-[11rem]">
+        <img class="translate-x-16 translate-y-6 sm:translate-y-3 sm:translate-x-20 w-full" src="./images__1_-removebg-preview.png" alt="">
+    </div>
+ </section>
+ <!-- 55555555 -->
+ <section class="bg-[#F5F5F5] mt-16 md:mt-[10rem] flex flex-col items-center  justify-center  md:flex-row md:justify-between md:items-center">
+    <div class="left h-[18rem]   flex p-3 flex-col gap-5 justify-center items-center lg:ps-28 md:max-w-[40%] md:items-start">
+        <h1 class="text-3xl md:text-[35px] md:leading-[50px] max-w-[30rem] font-semibold">Minimalism actually meets the functionality</h1>
+        <p class="text-[14px] font-medium text-[#000000b6] max-w-[30rem]"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste suscipit nihil ipsum possimus.</p>
+        <button class="bg-[#D1ED7F]  font-semibold rounded-lg px-[10px] py-[8px]">Shop now</button> 
+    </div>
+    <div class="right h-[18rem] md:h-[25rem] w-full md:w-[35%] max-w-[25rem] m-auto md:m-0">
+        <img class="w-full h-full" src="./pexel.jpg" alt="">
+    </div>
+
+ </section>
+ <!-- 666666 -->
+  <section class="mt-10 flex flex-col justify-center  items-center">
+    <h1 class="text-3xl font-semibold text-center w-[20rem]">Inspiring interiors crafted with passion</h1>
+    <div class="mt-8 flex flex-col gap-4 md:items-center md:flex-row">
+        <div class="flex flex-col gap-5 md:w-1/2 ">
+            <div class="relative ">
+                <img class="w-full h-[16rem] rounded-lg" src="./download (6).jpeg" alt="">
+                <div class="absolute bottom-4 text-white left-4">
+                    <p class="text-xl text-[#ffffffd7]">Soft sofa</p>
+                    <p class="text-xs text-[#ffffffb2]">Off-white color</p>
+                </div>
+                <div class="absolute bottom-5 right-6 bg-[#FFFFFF] size-8 rounded-full"></div>
+            </div>
+            <div class="relative ">
+                <img class="w-full h-[16rem] rounded-lg" src="./download (4).jpeg" alt="">
+                <div class="absolute bottom-4 text-white left-4">Modern chair</p>
+                    <p class="text-xs text-[#ffffffb2]">Match with wood</p>
+                </div>
+                <div class="absolute bottom-5 right-6 bg-[#FFFFFF] size-8 rounded-full"></div>
+            </div>
+        </div>
+        <div class="relative md:w-1/2 md:h-full top-0 bottom-0">
+            <img class="w-full h-[16rem] md:h-[33rem] rounded-lg" src="./download (5).jpeg" alt="">
+            <div class="absolute bottom-4 text-white left-4">
+                <p class="text-xl text-[#ffffffd7]">Book table</p>
+                <p class="text-xs text-[#ffffffb2]">Experince the ultimate</p>
+            </div>
+            <div class="absolute bottom-5 right-6 bg-[#FFFFFF] size-8 rounded-full"></div>
+        </div>
+    </div>
+  </section>
+  <!-- 777777 -->
+   <section class="md:flex md:flex-row-reverse md:justify-center md:items-center mt-20 md:px-20 ">
+    <div class="rigth md:w-2/5 ">
+        <div class="left h-[18rem] flex p-3 flex-col gap-5 justify-center items-start">
+            <h1 class="text-3xl font-semibold md:text-[35px] md:w-[20rem] md:leading-[40px]">New experience is going to unlock</h1>
+            <p class="text-[14px] font-medium text-[#000000b6] md:w-[20rem]"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste suscipit nihil ipsum possimus.</p>
+            <button class="bg-[#D1ED7F] font-semibold rounded-lg px-[10px] py-[8px]">Shop now</button> 
+        </div>
+    </div>
+    <div class="left line w-[16rem] sm:min-w-[16rem] md:w-1/4 m-auto relative">
+        <div class="w-3 h-[14rem] left-[50px] top-[20px] absolute bg-[#D1ED7F] rotate-[-20deg]"></div>
+        <div class="w-3 h-[14rem] left-[120px] absolute top-[20px] bg-[#D1ED7F] rotate-[-20deg]"></div>
+        <div class="w-3 h-[14rem] left-[190px] absolute top-[20px] bg-[#D1ED7F] rotate-[-20deg]"></div>
+        <img class="w-full z-30 relative" src="./last.png" alt="">
+    </div>
+   </section>
+   <!-- last -->
+   <section class="mt-8 px-2 md:px-20">
+        <div class="flex flex-col gap-5 md:flex-row md:justify-between md:items-center mb-5 md:px-20 p-3">
+            <h1 class="text-3xl font-semibold md:text-[40px] md:w-[25rem] md:leading-[40px]">some of our well know projects!</h1>
+            <p class="text-[14px] font-medium text-[#000000b6] md:w-[25rem]">Lorem lorem4 ipsum dolor sit amet consectetur adipisicing elit. Incidunt similique fuga eligendi.</p>
+        </div>
+        <hr class="border-1 border-black">
+        <div class="flex flex-col  gap-4">
+            <div class="flex flex-col gap-5 md:flex-row md:justify-evenly mt-6 justify-between items-center">
+                <div class="flex gap-3 items-baseline">
+                    <div class="font-semibold">
+                        01
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <h1 class="font-semibold  text-xl">Refined Elgance</h1>
+                        <p class="text-xs text-[#000000cc]">Lorem ipsum dolor sit amet consectetur, adipisicing eli lorem disoble lorem</p>
+                    </div>
+                </div>
+                <div class="flex justify-center gap-4 items-center">
+                    <button class="text-[#add438] border border-[#beeb37]  font-semibold rounded-lg px-[10px] py-[8px]">View product</button> 
+                    <div class="w-[12rem]"><img class="w-full h-[5rem] rounded-2xl" src="./images (3).jpeg" alt=""></div>
+                </div>
+            </div>
+            <hr class="border-1 border-slate-400">
+            <div class="flex flex-col gap-5 justify-between md:flex-row md:justify-evenly items-center">
+                <div class="flex gap-3 items-baseline">
+                    <div class="font-semibold">
+                        02
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <h1 class="font-semibold  text-xl">Artistic fusion</h1>
+                        <p class="text-xs text-[#000000cc]">Lorem ipsum dolor sit amet consectetur, adipisicing eli lorem disoble lorem</p>
+                    </div>
+                </div>
+                <div class="flex justify-center gap-4 items-center">
+                    <button class="text-[#add438] border border-[#beeb37]  font-semibold rounded-lg px-[10px] py-[8px]">View product</button> 
+                    <div class="w-[12rem]"><img class="w-full h-[5rem] rounded-2xl" src="./download (7).jpeg" alt=""></div>
+                </div>
+            </div>
+            <hr class="border-1 border-slate-400">
+            <div class="flex flex-col gap-5 justify-between md:flex-row md:justify-evenly items-center">
+                <div class="flex gap-3 items-baseline">
+                    <div class="font-semibold">
+                        03
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <h1 class="font-semibold  text-xl">Harmonious Space</h1>
+                        <p class="text-xs text-[#000000cc]">Lorem ipsum dolor sit amet consectetur, adipisicing eli lorem disoble lorem</p>
+                    </div>
+                </div>
+                <div class="flex justify-center gap-4 items-center">
+                    <button class="text-[#add438] border border-[#beeb37]  font-semibold rounded-lg px-[10px] py-[8px]">View product</button> 
+                    <div class="w-[12rem]"><img class="w-full h-[5rem] rounded-2xl" src="./download (8).jpeg" alt=""></div>
+                </div>
+            </div>
+            <hr class="border-1 mb-7 border-slate-400">
+        </div>
+   </section >
+<script src="./js.js"></script>
+        </body>
+        </html>
